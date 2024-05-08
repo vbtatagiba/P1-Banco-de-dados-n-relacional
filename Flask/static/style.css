@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    background-color: #3498db; /* Azul */
+    color: white;
+    padding: 10px;
+    border-radius: 12px; /* Bordas arredondadas */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #3498db; /* Azul */
+    border-radius: 12px; /* Bordas arredondadas */
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select {
+    width: calc(100% - 22px); /* Ajuste para compensar a largura do padding e da borda */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #3498db; /* Azul */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+form button {
+    background-color: #3498db; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 12px; /* Bordas arredondadas */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #3498db; /* Azul */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #3498db; /* Azul */
+    color: white;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 12px; /* Bordas arredondadas */
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+/* Estilos para os botões */
+.btn {
+    background-color: #3498db; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 12px; /* Bordas arredondadas */
+}
+
+.btn-danger {
+    background-color: #e74c3c; /* Vermelho */
+}
+
+/* Estilos para a mensagem de alerta */
+.alert {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+    border-radius: 12px; /* Bordas arredondadas */
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.alert-success {
+    background-color: #4CAF50; /* Verde */
+}
+
+.alert-danger {
+    background-color: #f44336; /* Vermelho */
+}
+
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
