@@ -20,7 +20,7 @@ Este é um sistema de gerenciamento de usuários que consiste em duas partes pri
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/sistema-gerenciamento-usuarios.git
+git clone https://github.com/vbtatagiba/P1-Banco-de-dados-n-relacional.git
 
 2. Instale as dependências do projeto Node.js:
 
